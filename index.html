@@ -1,0 +1,39 @@
+<link rel="stylesheet" href="styles.css">
+<script src="form.js"></script>
+
+<div class="form-container">
+    <h2>Register</h2>
+    <form>
+        <div class="form-row">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" placeholder="Enter Name">
+        </div>
+
+        <div class="form-row">
+            <label for="aadhar">Aadhar Number:</label>
+            <input type="number" id="aadhar" name="aadharNo" placeholder="Enter Aadhar No.">
+        </div>
+
+        <div class="form-row">
+            <label for="pan">Pan Card Number:</label>
+            <input type="text" id="pan" name="pan" placeholder="Enter Pan Card Number">
+        </div>
+
+        <div class="form-row">
+            <label for="mobile">Mobile Number:</label>
+            <input type="text" id="mobile" name="mobile" placeholder="Enter Mobile Number">
+        </div>
+
+        <div class="form-row">
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob">
+        </div>
+
+        <div class="form-row">
+            <label for="marks">Marks (6 Subjects, separated by commas):</label>
+            <input type="text" id="marks" name="marks" placeholder="Enter marks for 6 subjects">
+        </div>
+
+        <button type="button" onclick="validate()">Register</button>
+    </form>
+</div>
